@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Walter+Turncoat&display=swap');
+body {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #111;
+  background-color: #f5d3a0;
+  line-height: 1.6;
+}
+
+
+
+.newsreader{
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/*  HEADER */
+header {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 50px 80px;
+  border-bottom: 2px solid #000000;
+}
+
+header .logo {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav a {
+  text-decoration: none;
+  margin-left: 25px;
+  color: #000;
+  font-size: 16px;
+}
+
+.nav .boton {
+  background-color: #f5e59f;
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  transition: color 0.3s;
+  
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+  color: #e4bf7b;
+}
+
+header .icons a {
+  color: #333;
+  margin-left: 15px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/*  */
+main {
+  width: 80%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.Sociales {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.Sociales img {
+  width: 30%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.Sociales-info {
+  border: 2px solid #ece1ae; 
+  padding: 20px;          
+  border-radius: 70px;
+  background-color: #ece1ae;
+}
+
+
+
+.Sociales-info h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Sociales-info p {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.ritmos {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.ritmos img {
+  width: 30%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.ritmos-info {
+  border: 2px solid #ece1ae; 
+  padding: 20px;          
+  border-radius: 70px;
+  background-color: #ece1ae;
+
+}
+
+
+
+.ritmos-info h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.ritmos-info p {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.Expresion {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.Expresion img {
+  width: 30%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.Expresion-info {
+  border: 2px solid #ece1ae; 
+  padding: 20px;          
+  border-radius: 70px;
+  background-color: #ece1ae;
+}
+
+
+
+.Expresion-info h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Expresion-info p {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+
+.read-more {
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  .post {
+    flex-direction: column;
+  }
+
+  .post img {
+    width: 100%;
+  }
+}
